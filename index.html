@@ -7,21 +7,28 @@
 
 body {
     font-family: 'Roboto';
+    font-weight: 100;
 }
 
+h1 {
+    font-weight: 400;
+    font-size: 16pt;
+}
 h2 {
     font-weight: 100;
     font-size: 24pt;
 }
 
-ul.link-list {
-    padding: 0;
-    margin: 0;
+.release-date {
+    padding: 0em 1.618em;
+    font-weight: 400;
 }
-ul.link-list li {
-    display: inline-block;
-    list-style-type: none;
-    margin-right: 1em;
+section {
+    padding: 1em 1.618em;
+}
+
+ul li {
+    list-style-type: circle;
 }
 
     </style>
@@ -30,9 +37,9 @@ ul.link-list li {
 
 <body>
 
-    <h2>Origin Software</h2>
+    <h1>Origin Software</h1>
     <h2>Ideogram</h2>
-    <div>October 2018</div>
+    <div class="release-date">October/November 2018</div>
     <section>
 
 
@@ -55,15 +62,17 @@ ul.link-list li {
         <p>Switch things up to keep every game fresh and relevant.</p>
 
     </section>
+    <footer>
+        <ul class="link-list">
+            <li>
+                <a href="ideogram/privacy.txt">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="ideogram/support.html">Support</a>
+            </li>
+        </ul>
+    </footer>
 
-    <ul class="link-list">
-        <li>
-            <a href="ideogram/privacy.txt">Privacy Policy</a>
-        </li>
-        <li>
-            <a href="ideogram/support.txt">Support</a>
-        </li>
-    </ul>
 </body>
 
 </html>
