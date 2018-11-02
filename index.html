@@ -17,18 +17,41 @@ h1 {
 h2 {
     font-weight: 100;
     font-size: 24pt;
+    padding: 0em 16px;
+    margin: 0px;
 }
 
 .release-date {
-    padding: 0em 1.618em;
+    padding: 0em 16px;
     font-weight: 400;
 }
+
+
+
+
+@media(min-width:480px) {
+
+    article {
+        width: 80%;
+    }
+}
+
+
 section {
-    padding: 1em 1.618em;
+    padding: 0em 0em;
+    margin: 2em 0em 0em 16px;
 }
 
 ul li {
     list-style-type: circle;
+}
+
+.app-icon {
+    float: right;
+    width: 128px;
+    height: 128px;
+    border-radius: 32px;
+    margin: 0px 16px 16px 16px;
 }
 
     </style>
@@ -38,40 +61,46 @@ ul li {
 <body>
 
     <h1>Origin Software</h1>
-    <h2>Ideogram</h2>
-    <div class="release-date">October/November 2018</div>
-    <section>
+    <article>
+
+        <h2>Ideogram</h2>
+        <div class="release-date">October 2018</div>
+
+        <img class="app-icon" src="image/ideogram.png"/>
+        <section>
 
 
-        <p>As English originates from multi-syllabic words, Chinese originates from mono-syllabic ideograms or characters. Reading and recognizing ideograms is the key to learning Chinese. Hone your Chinese reading, Mandarin and Cantonese recognition skills with this simple card pairing game.</p>
+            <p>As English originates from multi-syllabic words, Chinese originates from mono-syllabic ideograms or characters. Reading and recognizing ideograms is the key to learning Chinese. Hone your Chinese reading, Mandarin and Cantonese recognition skills with this simple card pairing game.</p>
 
-        <p>Ideogram has:</p>
+            <p>Ideogram has:</p>
 
-        <ul>
-            <li>Almost 10K of most common modern ideograms, covering characters encountered in over 99.999% of cases.</li>
-            <li>Multiple speakers for Mandarin (Taiwan and Mainland China) and Cantonese (Hong Kong).</li>
-            <li>Smart random generator, so that the most common ideograms are presented first.</li>
-            <li>Expansive in-game dictionary that lists definitions, use cases, variants (simplified and traditional), and other similar sounding characters.</li>
-        </ul>
+            <ul>
+                <li>Almost 10K of most common modern ideograms, covering characters encountered in over 99.999% of cases.</li>
+                <li>Multiple speakers for Mandarin (Taiwan and Mainland China) and Cantonese (Hong Kong).</li>
+                <li>Pronunciation or definition hints that provide assistance as you play along.</li>
+                <li>Smart random generator, so that the most common ideograms are presented first.</li>
+                <li>Expansive in-game dictionary that lists definitions, use cases, variants (simplified and traditional), and other similar sounding characters.</li>
+            </ul>
 
-        <p>Ideogram allows you to choose how you want to experience and learn Chinese.</p>
+            <p>Ideogram allows you to choose how you want to experience and learn Chinese.</p>
 
 
-        <p>Do you want to start with ideograms with only few strokes? Or do you want to dive into the most complex forms? Do you want to pair characters by form, sound, or meaning?</p>
+            <p>Do you want to start with ideograms with only few strokes? Or do you want to dive into the most complex forms? Do you want to pair characters by form, sound, or meaning?</p>
 
-        <p>Switch things up to keep every game fresh and relevant.</p>
-
-    </section>
-    <footer>
-        <ul class="link-list">
-            <li>
-                <a href="ideogram/privacy.txt">Privacy Policy</a>
-            </li>
-            <li>
-                <a href="ideogram/support.html">Support</a>
-            </li>
-        </ul>
-    </footer>
+            <p>Switch things up to keep every game fresh and relevant.</p>
+            <a href="https://appstore.com/dicksontam/ideogram"><img src="image/download-badge.svg"/></a>
+        </section>
+        <footer>
+            <ul class="link-list">
+                <li>
+                    <a href="ideogram/privacy.txt">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="ideogram/support.html">Support</a>
+                </li>
+            </ul>
+        </footer>
+    </article>
 
 </body>
 
