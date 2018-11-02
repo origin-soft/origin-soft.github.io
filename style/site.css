@@ -145,3 +145,7 @@ footer {
 
     margin: 4em 1.618em 0em 1.618em;
 }
+
+footer.apple {
+    font-size: 10pt;
+}
