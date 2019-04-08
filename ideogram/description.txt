@@ -2,13 +2,18 @@ As English originates from multi-syllabic words, Chinese originates from mono-sy
 
 Ideogram has:
 - Almost 10K of most common modern ideograms, covering characters encountered in over 99.999% of cases.
-- Multiple speakers for Mandarin (Taiwan and Mainland China) and Cantonese (Hong Kong).
+- Multiple speakers for Mandarin (Taiwan and Mainland China) and Cantonese (Hong Kong), who pronounce characters as you match them.
 - Smart random generator, so that the most common ideograms are presented first.
 - Expansive in-game dictionary that lists definitions, use cases, variants (simplified and traditional), and other similar sounding characters.
 
-Ideogram allows you to choose how you want to experience and learn Chinese.
+Games can require different types of matching. These include:
+- Identical matching (which requires you to match characters that look exactly the same).
+- Variant matching (which requires you to match different forms of the same character).
+- Mandarin & Cantonese matching (which requires you to match characters that sound the same).
 
-Do you want to start with ideograms with only few strokes? Or do you want to dive into the most complex forms?
-Do you want to pair characters by form, sound, or meaning?
+The base version provides 50+ additional card decks. These include:
+- HK Grade Level 1-6 decks (6)
+- Stroke-based decks (5)
+- Radical-based decks (40+)
 
-Switch things up to keep every game fresh and relevant.
+Chinese is a difficult language for beginners. It is also a very expansive language, because few people can recognize every Chinese character. Ideogram provides an easy and fun way for students of all skill levels to learn and improve their Chinese anytime.
